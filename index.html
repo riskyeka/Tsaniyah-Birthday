@@ -374,6 +374,7 @@
 
       offCanvas.addEventListener('show.bs.offcanvas', function() {
         stickyTop.style.overflow = 'visible';
+        stickyTop.style.zIndex = "999";
       });
 
       offCanvas.addEventListener('hidden.bs.offcanvas', function() {
@@ -407,7 +408,7 @@
       }
 
       function playAudio() {
-        song.volume = 0.5;
+        song.volume = 1;
         audioIconWrapper.style.display = 'flex';
         song.play();
         isPlaying = true;
