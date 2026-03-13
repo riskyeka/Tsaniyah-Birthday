@@ -419,6 +419,11 @@ footer li {
         font-size: 60%;
     }
 
+    .navbar .container button {
+        pointer-events: none;
+        cursor: not-allowed;
+    }
+
     .timeline li .timeline-image {
         width: 80px;
         height: 80px;
